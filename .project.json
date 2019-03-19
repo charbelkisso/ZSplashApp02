@@ -1,0 +1,25 @@
+{
+	"dataBinding": {
+		"/webapp/view/S0.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/S1.view.xml": {
+			"entitySet": "/SalesOrdersSet"
+		},
+		"/webapp/view/1444773305662_S2.view.xml": {
+			"entitySet": "/SalesOrdersSet"
+		},
+		"/webapp/view/1444774260324_S3.view.xml": {
+			"entitySet": "/SalesOrdersSet"
+		},
+		"/webapp/view/1444775235563_S4.view.xml": {
+			"entitySet": "/SalesOrdersSet"
+		},
+		"/webapp/view/D1_1464080436618.view.xml": {
+			"entitySet": ""
+		},
+		"/webapp/view/D0_1461229087346.view.xml": {
+			"entitySet": ""
+		}
+	}
+}

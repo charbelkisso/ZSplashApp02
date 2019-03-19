@@ -1,0 +1,36 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" controllerName="com.sap.build.standard.createSalesOrder.controller.D1_1464080436618"
+	xmlns="sap.m">
+	<Dialog horizontalScrolling="true" showHeader="true" state="None" stretch="false" title="Change Customer" type="Standard"
+		verticalScrolling="true">
+		<content>
+			<List mode="SingleSelectMaster" width="100%" headerText="Header" footerText="" backgroundDesign="Solid" showSeparators="All" growing="false"
+				growingThreshold="20" growingScrollToLoad="false">
+				<infoToolbar/>
+				<headerToolbar>
+					<Toolbar enabled="true" visible="true" width="" design="Solid">
+						<content>
+							<SearchField placeholder="Search" showSearchButton="true" visible="true" width="100%"/>
+						</content>
+					</Toolbar>
+				</headerToolbar>
+				<items>
+					<StandardListItem title="A.I.T. GmbH (1400)" description="Germany Frankfurt., Final customer sales, Cross-division" info="" infoState="None"
+						type="Active" selected="false" visible="true"/>
+					<StandardListItem title="Becker Berlin (1000)" description="Germany Frankfurt, Final customer sales, Cross-division" info=""
+						infoState="None" type="Active" selected="false" visible="true"/>
+					<StandardListItem title="K.F.W. Berlin (1234)" description="Germany Frankfurt, Final customer sales, Cross-division" info=""
+						infoState="None" type="Active" selected="false" visible="true"/>
+				</items>
+			</List>
+		</content>
+		<beginButton/>
+		<buttons>
+			<Button text="OK" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+			<Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"
+				press="_onButtonPress1"/>
+		</buttons>
+		<customHeader/>
+		<endButton/>
+		<subHeader/>
+	</Dialog>
+</core:FragmentDefinition>

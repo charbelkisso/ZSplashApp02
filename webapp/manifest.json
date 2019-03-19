@@ -1,0 +1,191 @@
+{
+	"_version": "1.8.0",
+	"sap.app": {
+		"_version": "1.3.0",
+		"id": "com.sap.build.standard.createSalesOrder",
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"applicationVersion": {
+			"version": "1.2.2"
+		},
+		"ach": "ach",
+		"resources": "resources.json",
+		"dataSources": {
+			"local": {
+				"uri": "/here/goes/your/serviceUrl/local/",
+				"type": "OData",
+				"settings": {
+					"odataVersion": "2.0",
+					"localUri": "localService/metadata.xml"
+				}
+			}
+		},
+		"sourceTemplate": {
+			"id": "sap.ui.ui5-template-plugin.2masterdetail",
+			"version": "1.32.5"
+		}
+	},
+	"sap.fiori": {
+		"_version": "1.1.0",
+		"registrationIds": [],
+		"archeType": "transactional"
+	},
+	"sap.ui": {
+		"_version": "1.3.0",
+		"technology": "UI5",
+		"icons": {
+			"icon": "sap-icon://detail-view",
+			"favIcon": "",
+			"phone": "",
+			"phone@2": "",
+			"tablet": "",
+			"tablet@2": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
+	},
+	"sap.ui5": {
+		"_version": "1.3.0",
+		"rootView": {
+			"viewName": "com.sap.build.standard.createSalesOrder.view.App",
+			"type": "XML",
+			"async": false,
+			"id": "app"
+		},
+		"autoPrefixId": true,
+		"dependencies": {
+			"minUI5Version": "1.50.0",
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"uri": "i18n/i18n.properties"
+			},
+			"": {
+				"dataSource": "local",
+				"type": "sap.ui.model.odata.v2.ODataModel",
+				"preload": true,
+				"settings": {
+					"loadMetadataAsync": false,
+					"json": true,
+					"bJSON": true,
+					"defaultBindingMode": "TwoWay",
+					"defaultCountMode": "Inline",
+					"useBatch": true,
+					"refreshAfterChange": false,
+					"disableHeadRequestForToken": true
+				}
+			}
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.m.routing.Router",
+				"viewType": "XML",
+				"viewPath": "com.sap.build.standard.createSalesOrder.view",
+				"controlId": "idAppControl",
+				"clearTarget": false,
+				"controlAggregation": "detailPages",
+				"async": false,
+				"bypassed": {
+					"target": [
+						"S1",
+						"S0"
+					]
+				}
+			},
+			"targets": {
+				"S0": {
+					"controlAggregation": "masterPages",
+					"viewName": "S0",
+					"viewId": "S0",
+					"viewLevel": 1,
+					"transition": "slide"
+				},
+				"S1": {
+					"controlAggregation": "detailPages",
+					"viewName": "S1",
+					"viewId": "S1",
+					"viewLevel": 1,
+					"transition": "slide"
+				},
+				"1444773305662_S2": {
+					"controlAggregation": "detailPages",
+					"viewName": "1444773305662_S2",
+					"viewId": "1444773305662_S2",
+					"viewLevel": 1,
+					"transition": "slide"
+				},
+				"1444774260324_S3": {
+					"controlAggregation": "detailPages",
+					"viewName": "1444774260324_S3",
+					"viewId": "1444774260324_S3",
+					"viewLevel": 1,
+					"transition": "slide"
+				},
+				"1444775235563_S4": {
+					"controlAggregation": "detailPages",
+					"viewName": "1444775235563_S4",
+					"viewId": "1444775235563_S4",
+					"viewLevel": 1,
+					"transition": "slide"
+				}
+			},
+			"routes": [{
+				"pattern": "S0",
+				"name": "S0",
+				"target": [
+					"S1",
+					"S0"
+				]
+			}, {
+				"pattern": "S0/S1/:context:",
+				"name": "S1",
+				"target": [
+					"S0",
+					"S1"
+				]
+			}, {
+				"pattern": "S0/1444773305662_S2/:context:",
+				"name": "1444773305662_S2",
+				"target": [
+					"S0",
+					"1444773305662_S2"
+				]
+			}, {
+				"pattern": "S0/1444774260324_S3/:context:",
+				"name": "1444774260324_S3",
+				"target": [
+					"S0",
+					"1444774260324_S3"
+				]
+			}, {
+				"pattern": "S0/1444775235563_S4/:context:",
+				"name": "1444775235563_S4",
+				"target": [
+					"S0",
+					"1444775235563_S4"
+				]
+			}, {
+				"pattern": "",
+				"name": "default",
+				"target": [
+					"S1",
+					"S0"
+				]
+			}]
+		}
+	}
+}

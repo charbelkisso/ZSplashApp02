@@ -1,0 +1,109 @@
+[{
+	"ID": "10",
+	"___FK_cfafc4bf8dfb1ea60ae04ba2": "1",
+	"Name": "Flat Screen",
+	"Quantity": 2,
+	"QuantityMeasure": "Piece",
+	"ItemPrice": 650,
+	"Currency": "EUR",
+	"SubTotal": 8110.7
+}, {
+	"ID": "20",
+	"___FK_cfafc4bf8dfb1ea60ae04ba2": "1",
+	"Name": "Keyboard",
+	"Quantity": 1,
+	"QuantityMeasure": "Piece",
+	"ItemPrice": 15,
+	"Currency": "EUR",
+	"SubTotal": 5198.72
+}, {
+	"ID": "30",
+	"___FK_cfafc4bf8dfb1ea60ae04ba2": "1",
+	"Name": "Mouse",
+	"Quantity": 1,
+	"QuantityMeasure": "Piece",
+	"ItemPrice": 10,
+	"Currency": "EUR",
+	"SubTotal": 3595.37
+}, {
+	"ID": "40",
+	"___FK_cfafc4bf8dfb1ea60ae04ba2": "2",
+	"Name": "Laptop",
+	"Quantity": 1,
+	"QuantityMeasure": "Piece",
+	"ItemPrice": 856,
+	"Currency": "EUR",
+	"SubTotal": 6994.35
+}, {
+	"ID": "50",
+	"___FK_cfafc4bf8dfb1ea60ae04ba2": "2",
+	"Name": "Flat Screen",
+	"Quantity": 1,
+	"QuantityMeasure": "Piece",
+	"ItemPrice": 650,
+	"Currency": "EUR",
+	"SubTotal": 3228.14
+}, {
+	"ID": "110",
+	"___FK_cfafc4bf8dfb1ea60ae04ba2": "3",
+	"Name": "Keyboard",
+	"Quantity": 1,
+	"QuantityMeasure": "Piece",
+	"ItemPrice": 15,
+	"Currency": "EUR",
+	"SubTotal": 7157.9
+}, {
+	"ID": "120",
+	"___FK_cfafc4bf8dfb1ea60ae04ba2": "4",
+	"Name": "Mouse",
+	"Quantity": 1,
+	"QuantityMeasure": "Piece",
+	"ItemPrice": 10,
+	"Currency": "EUR",
+	"SubTotal": 8946.77
+}, {
+	"ID": "130",
+	"___FK_cfafc4bf8dfb1ea60ae04ba2": "4",
+	"Name": "Laptop",
+	"Quantity": 1,
+	"QuantityMeasure": "Piece",
+	"ItemPrice": 856,
+	"Currency": "EUR",
+	"SubTotal": 5696.52
+}, {
+	"ID": "140",
+	"___FK_cfafc4bf8dfb1ea60ae04ba2": "5",
+	"Name": "Flat Screen",
+	"Quantity": 1,
+	"QuantityMeasure": "Piece",
+	"ItemPrice": 650,
+	"Currency": "EUR",
+	"SubTotal": 1576.7
+}, {
+	"ID": "150",
+	"___FK_cfafc4bf8dfb1ea60ae04ba2": "5",
+	"Name": "Keyboard",
+	"Quantity": 1,
+	"QuantityMeasure": "Piece",
+	"ItemPrice": 15,
+	"Currency": "EUR",
+	"SubTotal": 6156.35
+}, {
+	"ID": "210",
+	"___FK_cfafc4bf8dfb1ea60ae04ba2": "6",
+	"Name": "Mouse",
+	"Quantity": 2,
+	"QuantityMeasure": "Piece",
+	"ItemPrice": 10,
+	"Currency": "EUR",
+	"SubTotal": 3201.31
+}, {
+	"ID": "220",
+	"___FK_cfafc4bf8dfb1ea60ae04ba2": "6",
+	"Name": "Laptop",
+	"Quantity": 1,
+	"QuantityMeasure": "Piece",
+	"ItemPrice": 856,
+	"Currency": "EUR",
+	"SubTotal": 982.15
+}]
